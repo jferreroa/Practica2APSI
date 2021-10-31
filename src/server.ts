@@ -1,7 +1,7 @@
 import express, { application } from 'express';
 import { MongoClient } from 'mongodb';
 import { router } from './routes/routes';
-import morgan from 'morgan'
+
 
 
 const app = express();
