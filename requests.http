@@ -1,0 +1,22 @@
+
+###
+GET http://localhost:9000/api/character HTTP/1.1
+
+###
+get http://localhost:9000/api/status HTTP/1.1
+
+###
+GET http://localhost:9000/api/character/617a6d17b9ae302d4a9ff339 HTTP/1.1
+
+###
+PUT http://localhost:9000/api/switchstatus/617a6d17b9ae302d4a9ff339 HTTP/1.1
+Content-type: application/json
+
+{
+   "status": "Alive"
+}
+
+
+###
+DELETE http://localhost:9000/api/allusers/617a6d31b9ae302d4a9ff512 HTTP/1.1
+Content-type: application/json
