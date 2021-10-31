@@ -5,7 +5,7 @@ import { router } from './routes/routes';
 
 
 const app = express();
-const port = process.env.PORT || 9000; //escuchando en puerto default o en el 9000
+const port = process.env.PORT || 3000; //escuchando en puerto default o en el 9000
 
 interface ErrorWithStatus extends Error {
     status: number
